@@ -9,7 +9,7 @@ def task_2():
 if __name__ == '__main__':
     import sys
     if len(sys.argv) == 1 or sys.argv[1] == '0':
-        assert task_2() == None
+        assert task_1() == None
         assert task_2() == None
         print('All tests are OK')
 
